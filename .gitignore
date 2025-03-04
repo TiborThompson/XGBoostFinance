@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+stockenv/
+venv/
+env/
+.env/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Model files (may get large)
+# models/*.json  # Uncomment if you don't want to commit models
+
+# Downloaded data files
+# data/*.csv  # Uncomment if you don't want to commit data
+
+# Log files
+*.log
