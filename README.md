@@ -2,8 +2,6 @@
 
 This project is a **proof of concept** that demonstrates how to implement a probabilistic prediction approach for stock returns using XGBoost. Rather than attempting to predict exact stock prices (a notoriously difficult task), this system models the full probability distribution of future returns across discrete buckets.
 
-![Probability Distribution](models/probability_distribution.png)
-
 ## Concept & Experimental Status
 
 This is an experimental implementation designed to explore the concept of probabilistic stock return prediction. It serves as a technical demonstration and learning resource for:
@@ -115,12 +113,6 @@ The model is evaluated using:
 - **Brier Score**: Measures calibration quality
 - **Directional Accuracy**: Ability to predict up/down direction
 - **Strategy Returns**: Performance of trading strategy based on predictions
-
-## Calibration Curves
-
-![Calibration Curve](models/calibration_curve.png)
-
-Calibration curves show how well predicted probabilities match actual frequencies. Points near the diagonal line indicate good calibration.
 
 ## Experimental Findings
 
